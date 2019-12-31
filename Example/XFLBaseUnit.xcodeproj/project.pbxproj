@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		162C17CD23BB1A3B00FC604B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162C17CC23BB1A3B00FC604B /* Person.swift */; };
 		2FB5EBA79CEDE91995D0781F /* Pods_XFLBaseUnit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFA3FE5D6B8F63CB3E72B31 /* Pods_XFLBaseUnit_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,8 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002AF99F112679BC122547D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3D40622242A3A5CB11243A59 /* XFLBaseUnit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XFLBaseUnit.podspec; path = ../XFLBaseUnit.podspec; sourceTree = "<group>"; };
+		002AF99F112679BC122547D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		162C17CC23BB1A3B00FC604B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		3D40622242A3A5CB11243A59 /* XFLBaseUnit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XFLBaseUnit.podspec; path = ../XFLBaseUnit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* XFLBaseUnit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XFLBaseUnit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +46,7 @@
 		AB2CA1A4666A31CDE15E447B /* Pods-XFLBaseUnit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFLBaseUnit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XFLBaseUnit_Tests/Pods-XFLBaseUnit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AEFA3FE5D6B8F63CB3E72B31 /* Pods_XFLBaseUnit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XFLBaseUnit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23A8C728A13103EFDF29FA3 /* Pods-XFLBaseUnit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFLBaseUnit_Example.release.xcconfig"; path = "Target Support Files/Pods-XFLBaseUnit_Example/Pods-XFLBaseUnit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E6345C2B56F1054DA68BE401 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E6345C2B56F1054DA68BE401 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EF10AB3CECF8C758B532EDD5 /* Pods_XFLBaseUnit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XFLBaseUnit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB246392E0C4E2E4F27B610D /* Pods-XFLBaseUnit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFLBaseUnit_Tests.release.xcconfig"; path = "Target Support Files/Pods-XFLBaseUnit_Tests/Pods-XFLBaseUnit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +79,6 @@
 				AB2CA1A4666A31CDE15E447B /* Pods-XFLBaseUnit_Tests.debug.xcconfig */,
 				FB246392E0C4E2E4F27B610D /* Pods-XFLBaseUnit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -111,6 +112,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				162C17CC23BB1A3B00FC604B /* Person.swift */,
 			);
 			name = "Example for XFLBaseUnit";
 			path = XFLBaseUnit;
@@ -213,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = MYGTG3HANR;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				162C17CD23BB1A3B00FC604B /* Person.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -478,7 +483,9 @@
 			baseConfigurationReference = 66580EA884002DA47A2F2D11 /* Pods-XFLBaseUnit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MYGTG3HANR;
 				INFOPLIST_FILE = XFLBaseUnit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +500,9 @@
 			baseConfigurationReference = C23A8C728A13103EFDF29FA3 /* Pods-XFLBaseUnit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MYGTG3HANR;
 				INFOPLIST_FILE = XFLBaseUnit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

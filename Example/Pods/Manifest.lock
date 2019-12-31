@@ -1,0 +1,16 @@
+PODS:
+  - XFLBaseUnit (0.1.0)
+
+DEPENDENCIES:
+  - XFLBaseUnit (from `../`)
+
+EXTERNAL SOURCES:
+  XFLBaseUnit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XFLBaseUnit: 8dc1b5e616403d7b9bc23bca1c73fbd17649a18f
+
+PODFILE CHECKSUM: 9851fb2cbee0546841ef1d4ad4c9bafc18929e3c
+
+COCOAPODS: 1.8.4
